@@ -12,10 +12,10 @@
         <title>indice - Amortizações</title>
     </head>
     <body>
-        <h4>Indice</h4>
-        <h1>Amortizações</h1>
-        <hr size="3" style="background-color: black;border-color: black"/>
-        <br />
+        <div>
+            <%@include file="WEB-INF/jspf/menu.jspf" %>
+            <%@include file="WEB-INF/jspf/rodape.jspf" %>
+        </div>
         <ol type="1">
             <li><a href="amortizacao-constante.jsp" target="_Blank">Amortização Constante</a></li>
             <li><a href="amortizacao-americana.jsp" target="_Blank">Amortização Americana</a></li>

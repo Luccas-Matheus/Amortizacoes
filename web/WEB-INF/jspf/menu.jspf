@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+    <a href="index.jsp"><h4>Indice</h4></a>
+    <h1>Amortizações</h1>
+    <hr size="3" style="background-color: black;border-color: black"/>
+    <br />
