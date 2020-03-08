@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<form>
+            <table>
+                <tr>
+                    <td><label for="quant">Quantidade do Emprestimo:</label></td>
+                    <td> <input type="number" name="quant1" size="20" /></td> 
+                </tr>
+                <tr>
+                    <td><label for="mes">Numero de Parcelas:</label></td>
+                    <td><input type="number" size="10" /></td>
+                </tr>
+                <tr>
+                    <td><label for="juros">Porcentagem de Juros:</label></td>
+                    <td><input type="number" size="10" /></td>
+                </tr>
+            </table>
+</form>
