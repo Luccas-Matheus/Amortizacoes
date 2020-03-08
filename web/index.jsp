@@ -8,11 +8,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <% String PageTitle = "Índice - Amortizações"; %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>indice - Amortizações</title>
+        <title><%= PageTitle %></title>
     </head>
     <body>
         <div>
+            <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
             <%@include file="WEB-INF/jspf/menu.jspf" %>
             <%@include file="WEB-INF/jspf/rodape.jspf" %>
         </div>
