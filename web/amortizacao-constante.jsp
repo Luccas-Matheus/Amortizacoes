@@ -8,13 +8,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <% String PageTitle = "Amortização Constante"; %>
+        <% String action = "amortizacao-constante.jsp"; %>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title><%= PageTitle %></title>
     </head>
     <body>
         <div>
+            <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
             <%@include file="WEB-INF/jspf/menu.jspf" %>
-            <%@include file="WEB-INF/jspf/rodape.jspf" %>
+            <%@include file="WEB-INF/jspf/rodape.jspf" %>    
         </div>
     </body>
 </html>
