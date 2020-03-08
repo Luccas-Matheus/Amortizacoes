@@ -17,9 +17,9 @@
             <%@include file="WEB-INF/jspf/rodape.jspf" %>
         </div>
         <ol type="1">
-            <li><a href="amortizacao-constante.jsp" target="_Blank">Amortização Constante</a></li>
-            <li><a href="amortizacao-americana.jsp" target="_Blank">Amortização Americana</a></li>
-            <li><a href="tabela-price.jsp" target="_Blank">Tabela de Price</a></li>   
+            <li><a href="amortizacao-constante.jsp" >Amortização Constante</a></li>
+            <li><a href="amortizacao-americana.jsp" >Amortização Americana</a></li>
+            <li><a href="tabela-price.jsp" >Tabela de Price</a></li>   
         </ol>
     </body>
 </html>

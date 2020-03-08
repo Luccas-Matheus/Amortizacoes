@@ -16,6 +16,5 @@
             <%@include file="WEB-INF/jspf/menu.jspf" %>
             <%@include file="WEB-INF/jspf/rodape.jspf" %>
         </div>
-        <h1>Hello World!</h1>
     </body>
 </html>
