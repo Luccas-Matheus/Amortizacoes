@@ -1,7 +1,7 @@
 <%-- 
     Document   : tabela-price
     Created on : 05/03/2020, 15:31:52
-    Author     : lucca
+    Author     : Rodrigo Matos
 --%>
 
 <%@page import="java.text.DecimalFormat"%>

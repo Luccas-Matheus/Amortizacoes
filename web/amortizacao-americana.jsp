@@ -1,7 +1,7 @@
 <%-- 
     Document   : amortizacao-americana
     Created on : 05/03/2020, 15:31:02
-    Author     : lucca
+    Author     : Felipe Borreli
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
