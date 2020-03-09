@@ -26,7 +26,16 @@
             <li><h2><a href="tabela-price.jsp" >Tabela de Price</a></h2></li>   
             <p>O Sistema Americano de Amortização é um tipo de quitação de empréstimo que favorece aqueles que desejam pagar o valor principal através de uma única parcela, porém os juros devem ser pagos periodicamente ou, dependendo do contrato firmado entre as partes, os juros são capitalizados e pagos junto ao valor principal.</p>
         </ol>
-        
+        <br>
+        <hr size="3" style="background-color: black;border-color: black"/>
+        <h1>Integrantes</h1>
+        <ul>
+	<li>Antonio Carlos Soares Junior</li>
+	<li>Rodrigo doa Santos Chiriberto</li>
+	<li>Felipe Borreli Vieira</li>
+	<li>Luccas Matheus Elias Neves</li>
+	<li>Carlos Eduardo dos Santos</li>
+        </ul>
         
     </body>
 </html>
