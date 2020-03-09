@@ -31,7 +31,7 @@
         <h1>Integrantes</h1>
         <ul>
 	<li>Antonio Carlos Soares Junior</li>
-	<li>Rodrigo doa Santos Chiriberto</li>
+	<li>Rodrigo Chiriberto Matos</li>
 	<li>Felipe Borreli Vieira</li>
 	<li>Luccas Matheus Elias Neves</li>
 	<li>Carlos Eduardo dos Santos</li>
