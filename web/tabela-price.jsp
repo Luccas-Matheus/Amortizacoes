@@ -37,7 +37,7 @@
             <%
                 juros/=100;
                 double prest, vl_juros = 0, vl_amort = 0, acum_prest = 0, acum_juros = 0, acum_amort = 0;
-                DecimalFormat df = new DecimalFormat("#.00");
+                /*--DecimalFormat df = new DecimalFormat("#.##");--*/
                 prest = valor*((Math.pow((1+juros), parcelas)*juros)/((Math.pow((1+juros), parcelas)-1)));
                 /*prest = valor*(juros/(1-(Math.pow((1+juros), -parcelas))));*/
                 
@@ -55,16 +55,22 @@
                     else if(i<parcelas+1){
                         vl_juros = juros*valor;
                         vl_amort = prest - vl_juros;
-                        valor-=prest;
+                        valor -= vl_amort;
                         acum_prest += prest;
                         acum_juros += vl_juros;
                         acum_amort += vl_amort;%>
                         <tr align="center">
                             <td><%=i%></td>
-                            <td><%=df.format(prest)%></td>
-                            <td><%=df.format(vl_juros)%></td>
-                            <td><%=df.format(vl_amort)%></td>
-                            <td><%=df.format(valor)%></td>
+                            <td><%=(float)(Math.round(prest*100))/100%></td>
+                            <td><%=(float)(Math.round(vl_juros*100))/100%></td>
+                            <td><%=(float)(Math.round(vl_amort*100))/100%></td>
+                            <td><%=(float)(Math.round(valor*100))/100%></td>
+                            
+                            <!--<td>i%></td>
+                            <td>df.format(prest)%></td>
+                            <td>df.format(vl_juros)%></td>
+                            <td>df.format(vl_amort)%></td>
+                            <td>df.format(valor)%></td>-->
                         </tr>
                     <%} else if(i==parcelas+1){%>
                         <tr align="center">
@@ -77,9 +83,9 @@
                     <%} else if(i==parcelas+2){%>
                         <tr align="center">
                             <td>TOTAL</td>
-                            <td><%=df.format(acum_prest)%></td>
-                            <td><%=df.format(acum_juros)%></td>
-                            <td><%=df.format(acum_amort)%></td>
+                            <td><%=(float)(Math.round(acum_prest*100))/100%></td>
+                            <td><%=(float)(Math.round(acum_juros*100))/100%></td>
+                            <td><%=(float)(Math.round(acum_amort*100))/100%></td>
                             <td>&nbsp</td>
                         </tr>
                     <%}
