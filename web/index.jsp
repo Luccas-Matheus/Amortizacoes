@@ -15,7 +15,7 @@
     <body>
         <div>
             <%@include file="WEB-INF/jspf/cabecalho.jspf" %>
-            <%@include file="WEB-INF/jspf/menu.jspf" %>
+            <%--<%@include file="WEB-INF/jspf/menu.jspf" %>--%>
             <%@include file="WEB-INF/jspf/rodape.jspf" %>
         </div>
         <ol type="1">
